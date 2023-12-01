@@ -1,0 +1,153 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+    
+}
+
+header {
+    background-color: #3498db;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 60px 60px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: 25px auto;
+    text-align: justify;
+}
+
+
+
+.departement {
+    margin-bottom: 75px;  
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px 0;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* TODO: Tugas 7 - Responsive Styles */
+/* 1. Tambahkan aturan media query untuk layar dengan lebar kurang dari 768px */
+@media only screen and (max-width: 768px) {
+    body {
+        /* Sesuaikan gaya untuk tata letak pada layar kecil */
+    }
+
+    header {
+        /* Sesuaikan gaya header pada layar kecil */
+    }
+
+    header img {
+        /* Sesuaikan ukuran gambar logo pada layar kecil */
+    }
+
+    nav ul {
+        /* Sesuaikan gaya daftar menu pada layar kecil */
+    }
+
+    nav ul li {
+        /* Sesuaikan gaya setiap item menu pada layar kecil */
+    }
+
+    section {
+        /* Sesuaikan gaya section pada layar kecil */
+    }
+
+    .departement {
+        /* Sesuaikan gaya departemen pada layar kecil */
+    }
+
+    form {
+        /* Sesuaikan gaya formulir kontak pada layar kecil */
+    }
+
+    label {
+        /* Sesuaikan gaya label pada layar kecil */
+    }
+
+    input,
+    textarea {
+        /* Sesuaikan gaya input dan textarea pada layar kecil */
+    }
+
+    button {
+        /* Sesuaikan gaya tombol pada layar kecil */
+    }
+
+    button:hover {
+        /* Sesuaikan gaya tombol hover pada layar kecil */
+    }
+
+    footer {
+        /* Sesuaikan gaya footer pada layar kecil */
+    }
+}

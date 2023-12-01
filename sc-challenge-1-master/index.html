@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>UKM IK - Website</title>
+    <!-- TODO : Tugas 1 - Import CSS yang telah diberikan di folder ini dengan menggunakan tag <link> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 
+        TODO: Tugas 2 - Isi tag <header> dengan logo organisasi, nama organisasi, dan navbar
+        - tambahkan logo ukmik dengan menggunakan tag <img>
+            HINT: gambar ukmik tersimpan di folder ini dengan nama file "logo_ukmik.png"
+        - Tambahkan nama organisasi dalam tag <h1> yang berisi teks "UKM Informatika & Komputer"
+        - Buat navbar menggunakan tag <nav> dengan daftar menu menggunakan tag <ul> dan <li>
+        - menu berasal dari tiap tiap section yang ada di halaman ini
+        - Setiap menu harus memiliki tag <a> dengan atribut href yang mengarah ke id tiap section
+    -->
+    <header>
+        <img src="logo_ukmik.png">
+        <h1>UKM Informatika & Komputer</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">about</a></li>
+                <li><a href="#departement">departement</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- 
+        TODO: Tugas 3 - Buat bagian 'About Us' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "About Us"
+        - Buat paragraf <p> atau beberapa paragraf untuk menjelaskan organisasi
+    -->
+    
+    <section id="about">
+        <h2>About Us</h2>
+        <p> Selamat datang di Dunia Inovasi: UKM Informatika & Komputer! Di dalam genggaman teknologi,tercipta sebuah peradaban baru yang dipandu oleh kecanggihan informasi. Dan di tengah gemerlapnya revolusi digital, hadirlah UKM Informatika & Komputer sebagai arsitek masa depan!</p>
+    </section>
+
+    <!-- 
+        TODO: Tugas 4 - Buat bagian 'departement' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "Our Departement"
+        - Buat beberapa div atau tag lain untuk menampilkan informasi tentang setiap departemen dengan ketentuan : 
+            HINT :  tiap departemen dibungkus dengan 1 tag <div> dengan mempunyai atribut class "departement",
+                    tag <div> tersebut memiliki 2 child yang berisi :
+                    1) <h1> untuk menuliskan nama departemen
+                    2) <p> yang berisi penjelasan singkat mengenai departemen
+    -->
+    <section id="departement">
+        <h2>Our Departement</h2>
+        <div class="departement">
+            <h1>Departemen Pendidikan</h1>
+            <p>Pintau bukanlah batasan, tetapi awal dari perjalanan. Departemen Pendidikan mengundangmu untuk menjelajahi dunia pengetahuan teknologi melalui workshop, seminar, dan kursus yang mendalam. Bersiaplah untuk melampaui batas dan mengasah keterampilanmu di sini!</p>
+        </div>
+        <div>
+            <h1>Departemen Keanggotaan</h1>
+            <p>Bergabunglah dalam Departemen Keanggotaan dan jadilah bagian dari keluarga besar UKM informatika & Komputer! Bersama-sama, kita membangun ikatan yang kuat, saling mendukung, dan menjalani petualangan teknologi bersama teman-teman sejawat. Ayo, mari kita Tingkatkan potensi kita bersama!</p>
+        </div>
+        <div>
+            <h1>Departemen Humas</h1>
+            <p>Sebagai ujung tombak komunikasi, Departemen Humas menjadi suara hati UKM Informatika & Komputer. Dari menyebarkan informasi terbaru hingga membangun hubungan dengan dunia luar, kita menjembatani kesenjangan dan memastikan bahwa cerita kita terdengar oleh semua orang. Sambut inovasi bersama kami!</p>
+        </div>
+        <div>
+            <h1>Departemen Minat Bakat</h1>
+            <p>Setiap individu memiliki keunikan dan bakatnya sendiri. Bergabunglah dengan Departemen Minat Bakat untuk menemukan dan mengembangkan potensi terpendammu. Dari coding hingga desain, kita menyambut semua minat dan bakat dengan tangan terbuka. Jadilah bintang dalam kreasi teknologimu!</p>
+        </div>
+        <div>
+            <h1>Departemen Publikasi</h1>
+            <p>Cerita kita butuh panggungnya sendiri, dan itulah yang Departemen Publikası lakukan. Dengan kreativitas dan ketepatan, kita memperkenalkan UKM Informatika & Komputer ke dunia. Dari desain visual yang eye-catching hingga konten yang menginspirasi, mari bersama-sama menulis kisah kita di atas layar digital!</p>
+        </div>
+    </section>
+
+    <!-- 
+        TODO: Tugas 5 - Buat bagian 'Contact Us' dengan tag <section>
+        - Tambahkan tag <h2> dengan teks "Contact Us"
+        - Buat formulir kontak sederhana dengan tag <form>, termasuk input untuk nama, email, pesan, dan tombol kirim
+    -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+    
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- 
+        TODO: Tugas 6 - Tambahkan tag <footer> dengan hak cipta dan informasi organisasi
+        - Tambahkan informasi hak cipta dan detail kontak atau informasi lainnya yang relevan
+    -->
+    <footer>
+        <p>Copyright 2023 || UKM Informatika dan Komputer || Study Club FE</p>
+    </footer>
+
+</body>
+</html>
